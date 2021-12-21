@@ -1,0 +1,21 @@
+# Serveur Conf
+
+server:
+  port: 9000
+
+#Spring Conf
+spring:
+  #App conf
+  application:
+    name: api
+
+    #MySql Conf
+    datasource:
+      url: jdbc:mysql://localhost:3306/noeldb
+      username: root
+      password: root
+
+  #Jpa Conf
+  jpa:
+    hibernate:
+      ddl-auto: update
